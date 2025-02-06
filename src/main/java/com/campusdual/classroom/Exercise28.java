@@ -2,6 +2,8 @@ package com.campusdual.classroom;
 
 public class Exercise28 {
     public static void main(String[] args) {
-       throw new RuntimeException("Error programado :D");
+        int dividenado = 3;
+        int divisor = 0;
+        System.out.println(3 / 0);
     }
 }
